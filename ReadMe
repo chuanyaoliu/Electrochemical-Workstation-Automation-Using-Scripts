@@ -1,2 +1,8 @@
 Most of the operations in the CHI electrochemical workstation can be realized automatically through the "Control-macro command" function in the CHI software. That is to say, except for operations such as changing the electrolyte, there is no need to be on the sidelines. We can save a lot of time and energy to do more meaningful things.
 Take my own research direction, the electrochemical test of supercapacitor materials as an example. To test supercapacitors, we need to test the cyclic voltammetry (CV) curve, constant current charge-discharge curve (GCD), AC impedance curve (EIS), and long-term stability test. These series of operations can be achieved through automated scripts. You The only thing to do is to prepare your electrode material and run your automated test script.
+
+辰华电化学工作站中的大部分操作都可以通过CHI软件中"Control - macro command"功能进行自动实现。也就是说除了换电解液之类的操作以外，都不需要在旁。
+
+以我本人做的研究方向，超级电容器材料的电化学测试为例。测试超级电容器，我们需要测试循环伏安（CV）曲线，恒流充放电曲线（GCD），交流阻抗曲线（EIS）以及长时间稳定性测试，这一系列的操作都能通过自动化脚本实现，你唯一要做的事情就是：准备好你的电极材料，运行你的自动化测试脚本。
+
+
