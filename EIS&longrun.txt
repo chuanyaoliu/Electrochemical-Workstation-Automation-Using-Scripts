@@ -1,0 +1,100 @@
+#EIS--> longtime CP test-->EIS
+
+folder: D:\lcy  
+
+tech=imp
+ei=0
+fl=0.1
+fh=100000
+amp=0.005
+qt=2
+#sens	1e-12  -  .1
+impautosens	
+	#impsens0	1e-12  -  .1
+	#impsens1	1e-12  -  .1
+	#impsens2	1e-12  -  .1
+	#impsens3	1e-12  -  .1
+	#impsens4	1e-12  -  .1
+	#impsens5	1e-12  -  .1
+	#impsens6	1e-12  -  .1
+	#impsens7	1e-12  -  .1
+	#impsens8	1e-12  -  .1
+	#impsens9	1e-12  -  .1
+	#impsens10	1e-12  -  .1
+#impft	
+impsf	
+ibias=2
+cl1=1-12
+cl2=1-12
+cl3=1-12
+cl4=1-12
+cl5=1-12
+run                 
+save:EIS-before
+
+tech=cp             
+ic=0.02
+ia=0.02
+eh=0.4
+el=0
+tc=100
+ta=100
+pn=Anodic
+si=0.001
+cl=10
+prioe
+run                 
+save:longtime1
+
+run
+save:longtime2 
+
+run
+save:longtime3 
+
+run
+save:longtime4 
+
+run
+save:longtime5 
+
+run
+save:longtime6 
+
+tech=imp
+ei=0
+fl=0.1
+fh=100000
+amp=0.005
+qt=2
+#sens	1e-12  -  .1
+impautosens	
+	#impsens0	1e-12  -  .1
+	#impsens1	1e-12  -  .1
+	#impsens2	1e-12  -  .1
+	#impsens3	1e-12  -  .1
+	#impsens4	1e-12  -  .1
+	#impsens5	1e-12  -  .1
+	#impsens6	1e-12  -  .1
+	#impsens7	1e-12  -  .1
+	#impsens8	1e-12  -  .1
+	#impsens9	1e-12  -  .1
+	#impsens10	1e-12  -  .1
+#impft	
+impsf	
+ibias=2
+cl1=1-12
+cl2=1-12
+cl3=1-12
+cl4=1-12
+cl5=1-12
+run                 
+save:EIS-after
+
+
+
+
+
+
+
+

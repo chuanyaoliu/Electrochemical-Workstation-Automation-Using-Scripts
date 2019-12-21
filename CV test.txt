@@ -1,0 +1,39 @@
+folder: D:\lcy
+
+tech=cv             
+ei=0              
+eh=1              
+el=0
+v=0.2
+cl=10
+sens=1e-1
+run                 
+save:cv1            
+
+v=0.5                  
+run
+save:cv2
+
+v=0.2
+run
+save: cv3
+
+v=0.1
+run
+save: cv4
+
+v=0.05
+run
+save: cv5
+
+v=0.02
+run
+save: cv6
+
+v=0.01
+run
+save: cv7
+
+v=0.005
+run
+save: cv8
